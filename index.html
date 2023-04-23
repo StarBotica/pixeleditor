@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color Matrix</title>
+	<link rel="stylesheet" href="css/style.css">	
+  </head>
+  <body>
+	<h1>Dimensiones de la matriz</h1>
+	<div>
+		<label for="width">Anchura:</label>
+		<input type="number" id="width" value="8" min="1" max="32">
+		<label for="height">Altura:</label>
+		<input type="number" id="height" value="8" min="1" max="32">
+		<button onclick="createMatrix()">Crear matriz</button>
+    </div>
+    <h1>Matriz</h1>
+    <div>
+		<label for="red">Rojo:</label>
+		<input type="number" id="red" value="0" min="0" max="255">
+		<label for="green">Verde:</label>
+		<input type="number" id="green" value="0" min="0" max="255">
+		<label for="blue">Azul:</label>
+		<input type="number" id="blue" value="0" min="0" max="255">      
+	</div>
+	
+    <div id="matrix">
+      <!-- This div will contain the squares -->
+    </div>
+
+    <script src=js/script.js>
+
+    </script>
+  </body>
+</html>
